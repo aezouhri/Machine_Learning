@@ -8,7 +8,7 @@ X = np.column_stack((np.ones(t_values.shape), np.cos(2 * np.pi * t_values), np.s
 
 # Ridge Regression Function
 def ridge_regression(X, y, lamb):
-    return np.linalg.inv(X.T @ X + lamb * np.eye(X.shape[1])) @ X.T @ y
+    return np.linalg.inv(X.T @ X + lamb * np.eye(3)) @ X.T @ y
 
 # Generate Lambda Values
 lambdas = np.linspace(0, 10, 20)
