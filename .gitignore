@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# temp.pickle
+Project/temp.pickle
+
 # Distribution / packaging
 .Python
 build/
